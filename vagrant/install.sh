@@ -6,7 +6,7 @@ sudo apt-get -y dist-upgrade
 
 sudo apt-get install git
 
-cd scripts
+cd /vagrant/vagrant/scripts
 
 sh nginx.sh
 sh php.sh

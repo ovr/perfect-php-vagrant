@@ -8,5 +8,7 @@ sudo apt-get install git
 
 cd scripts
 
+sh nginx.sh
+sh php.sh
 sh zephir.sh
 sh phalcon.sh

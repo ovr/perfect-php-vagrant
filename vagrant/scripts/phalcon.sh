@@ -2,7 +2,7 @@
 
 echo "Installing Phalcon 2..."
 
-cd ~/build/
+cd /tmp
 git clone -b 2.0.0 https://github.com/phalcon/cphalcon.git
 cd cphalcon
 zephir install

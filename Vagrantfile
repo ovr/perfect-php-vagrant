@@ -9,7 +9,9 @@ Vagrant.configure(2) do |config|
         vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
     end
 
-    config.vm.provision :shell do |shell|
-        shell.path = "vagrant/install.sh"
-    end
+    config.vm.provision :shell, :path => "vagrant/install.sh"
+    config.vm.provision :shell, :path => "vagrant/scripts/php.sh"
+    config.vm.provision :shell, :path => "vagrant/scripts/zephir.sh"
+    config.vm.provision :shell, :path => "vagrant/scripts/phalcon.sh"
+    config.vm.provision :shell, :path => "vagrant/scripts/nginx.sh"
 end

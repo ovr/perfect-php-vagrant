@@ -6,9 +6,9 @@ sudo apt-get -y dist-upgrade
 
 sudo apt-get install git
 
-cd /vagrant/vagrant/scripts
+SCRIPTS_PATH=/vagrant/vagrant/scripts
 
-sh nginx.sh
-sh php.sh
-sh zephir.sh
-sh phalcon.sh
+${SCRIPTS_PATH}/nginx.sh
+${SCRIPTS_PATH}/php.sh
+${SCRIPTS_PATH}/zephir.sh
+${SCRIPTS_PATH}/phalcon.sh

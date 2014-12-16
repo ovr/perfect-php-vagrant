@@ -7,9 +7,10 @@ configuration = YAML.load_file('config.yaml')
 Vagrant.configure(2) do |config|
     config.vm.box = configuration["box"]
 
-    config.vm.network "private_network", ip: "10.10.10.150"
+    config.vm.network "private_network", ip: configuration["ip"]
 
     config.vm.provider "virtualbox" do |vb|
+        vb.name = configuration["name"]
         vb.memory = configuration["ram"]
         vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
     end

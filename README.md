@@ -22,3 +22,8 @@ To stop and reinstall machine please run
 ```bash
 vagrant halt && vagrant destroy -f && vagrant up
 ```
+
+License
+-------
+
+This project is open-sourced software licensed under the MIT License. See the LICENSE file for more information.

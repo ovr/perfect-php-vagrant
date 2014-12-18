@@ -2,4 +2,4 @@
 
 echo "Installing PHP..."
 
-sudo apt-get -y install php5-cli php5-dev
+sudo apt-get -y install php5-cli php5-dev php5-fpm

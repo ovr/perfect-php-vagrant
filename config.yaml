@@ -1,5 +1,6 @@
 ---
   name: phalcon2-dev
+  hostname: vm.local
   box: ubuntu/trusty64
   ram: 512
   ip: 10.10.10.150

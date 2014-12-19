@@ -31,11 +31,12 @@ Vagrant.configure(2) do |config|
     end
 
     config.vm.synced_folder configuration["projects-folder"], "/var/www/projects", create: true, group: "www-data", owner: "www-data"
+    config.vm.synced_folder "./localhost", "/var/www/localhost", create: true, group: "www-data", owner: "www-data"
 
     config.vm.provision :shell, :path => "vagrant/install.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/php.sh"
+    config.vm.provision :shell, :path => "vagrant/scripts/nginx.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/zephir.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/phalcon.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/lynx.sh"
-    config.vm.provision :shell, :path => "vagrant/scripts/nginx.sh"
 end

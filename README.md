@@ -11,8 +11,7 @@ My Vagrant Development Box
 
 1. Download and install [VirtualBox](https://www.virtualbox.org/)
 2. Download and install [Vagrant](http://www.vagrantup.com/)
-3. Clone this repo
-4. Run `vagrant up` in the repo directory
+3. Install project
 
 ## Installation
 

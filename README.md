@@ -5,7 +5,7 @@ My Vagrant Development Box
 * nginx
 * [Zephir](https://github.com/phalcon/zephir)
 * [Phalcon 2](https://github.com/phalcon/cphalcon/tree/2.0.0)
-* lynx
+* [Lynx](https://github.com/lynx/lynx)
 
 ## Getting Started
 

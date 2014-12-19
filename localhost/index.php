@@ -13,6 +13,13 @@ class Image
     <meta charset="UTF-8">
     <title>Info</title>
     <style type="text/css">
+        .container {
+            width: 960px;
+            margin: 0 auto;
+        }
+        .row {
+            width: 100%;
+        }
         .ext-logo {
             width: 100px;
             height: 100px;
@@ -20,17 +27,19 @@ class Image
     </style>
 </head>
 <body>
-    <?php echo "PHP Version: " . phpversion() . " </br>"; ?>
-    <?php if (extension_loaded('Phalcon')) { ?>
-        <?php $ext = new ReflectionExtension('phalcon'); ?>
-        <?php echo '<img src="data:image/png;base64,' . Image::PHALCON . '" class="ext-logo">'; ?>
-        <?php echo "Phalcon Version: " . $ext->getVersion() . "</br>"; ?>
-    <?php } ?>
+    <div class="container">
+        <?php echo "PHP Version: " . phpversion() . " </br>"; ?>
+        <?php if (extension_loaded('Phalcon')) : ?>
+            <?php $ext = new ReflectionExtension('phalcon'); ?>
+            <?php echo '<img src="data:image/png;base64,' . Image::PHALCON . '" class="ext-logo">'; ?>
+            <?php echo "Phalcon Version: " . $ext->getVersion() . "</br>"; ?>
+        <?php endif; ?>
 
-    <?php if (extension_loaded('Lynx')) { ?>
-        <?php $ext = new ReflectionExtension('lynx'); ?>
-        <?php echo '<img src="http://dmtry.me/img/logos/lynx_bnw.svg" class="ext-logo">'; ?>
-        <?php echo "Lynx Version: " . $ext->getVersion() . "</br>"; ?>
-    <?php } ?>
+        <?php if (extension_loaded('Lynx')) : ?>
+            <?php $ext = new ReflectionExtension('lynx'); ?>
+            <?php echo '<img src="http://dmtry.me/img/logos/lynx_bnw.svg" class="ext-logo">'; ?>
+            <?php echo "Lynx Version: " . $ext->getVersion() . "</br>"; ?>
+        <?php endif; ?>
+    </div>
 </body>
 </html>

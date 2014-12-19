@@ -3,7 +3,7 @@
 echo "Installing Lynx..."
 
 cd /tmp
-git clone -b 2.0.0 https://github.com/lynx/lynx.git
+git clone https://github.com/lynx/lynx.git
 cd lynx
 zephir install
 

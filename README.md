@@ -1,11 +1,11 @@
 My Vagrant Development Box
 ==========================
 
-* php
-* nginx
-* [Zephir](https://github.com/phalcon/zephir)
-* [Phalcon 2](https://github.com/phalcon/cphalcon/tree/2.0.0)
-* [Lynx](https://github.com/lynx/lynx)
+* PHP 5.6
+* Nginx (Web server)
+* [Zephir Language](https://github.com/phalcon/zephir) (Compiled high level language aimed to the creation of C-extensions for PHP)
+* [Phalcon 2](https://github.com/phalcon/cphalcon/tree/2.0.0) (Framework for PHP on Zephir)
+* [Lynx](https://github.com/lynx/lynx) (ORM/DBAL for PHP on Zephir)
 
 ## Getting Started
 

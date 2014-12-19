@@ -28,6 +28,8 @@ nano config.yaml
 vagrant up
 ```
 
+Weight when installation will be finished and open `http://servername/` to see info about server
+
 ## Vagrant
 
 To stop and reinstall machine please run

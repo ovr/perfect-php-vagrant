@@ -2,10 +2,9 @@ My Vagrant Development Box
 ==========================
 
 * php
-* phpbrew
 * nginx
-* zephir
-* phalcon 2
+* [Zephir](https://github.com/phalcon/zephir)
+* [Phalcon 2](https://github.com/phalcon/cphalcon/tree/2.0.0)
 * lynx
 
 ## Getting Started

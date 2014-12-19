@@ -19,6 +19,8 @@ Vagrant.configure(2) do |config|
     if Vagrant.has_plugin?('vagrant-hostmanager')
         hosts = Array.new()
 
+        hosts.push("phalcon-module.local");
+
         config.hostmanager.enabled           = true
         config.hostmanager.manage_host       = true
         config.hostmanager.ignore_private_ip = false

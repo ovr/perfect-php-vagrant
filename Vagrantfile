@@ -35,6 +35,7 @@ Vagrant.configure(2) do |config|
 
     config.vm.provision :shell, :path => "vagrant/install.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/php.sh"
+    config.vm.provision :shell, :path => "vagrant/scripts/nodejs.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/nginx.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/zephir.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/phalcon.sh"

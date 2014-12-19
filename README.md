@@ -15,6 +15,15 @@ My Vagrant Development Box
 3. Clone this repo
 4. Run `vagrant up` in the repo directory
 
+## Installation
+
+```bash
+git clone https://github.com/ovr/my-vagrant.git
+cd my-vagrant
+nano config.yaml
+vagrant up
+```
+
 ## Vagrant
 
 To stop and reinstall machine please run

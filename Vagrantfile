@@ -15,6 +15,16 @@ Vagrant.configure(2) do |config|
         vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
     end
 
+    if Vagrant.has_plugin?('vagrant-hostmanager')
+        hosts = Array.new()
+
+        config.hostmanager.enabled           = true
+        config.hostmanager.manage_host       = true
+        config.hostmanager.ignore_private_ip = false
+        config.hostmanager.include_offline   = false
+        config.hostmanager.aliases           = hosts
+    end
+
     config.vm.synced_folder configuration["projects-folder"], "/var/www/projects", create: true, group: "www-data", owner: "www-data"
 
     config.vm.provision :shell, :path => "vagrant/install.sh"

@@ -23,7 +23,7 @@ Don't forget to install vagrant host manager plugin:
 vagrant plugin install vagrant-hostmanager
 ```
 
-and vagrant cachier (to cache stared packages installation):
+and vagrant cachier (to cache shared packages installation):
 
 ```bash
 vagrant plugin install vagrant-cachier

@@ -30,6 +30,10 @@ Vagrant.configure(2) do |config|
         config.hostmanager.aliases           = hosts
     end
 
+    if Vagrant.has_plugin?("vagrant-cachier")
+        config.cache.scope = :box
+    end
+
     config.vm.synced_folder configuration["projects-folder"], "/var/www/projects", create: true, group: "www-data", owner: "www-data"
     config.vm.synced_folder "./localhost", "/var/www/localhost", create: true, group: "www-data", owner: "www-data"
 

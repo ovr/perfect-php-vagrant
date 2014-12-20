@@ -14,10 +14,16 @@ My Vagrant Development Box
 2. Download and install [Vagrant](http://www.vagrantup.com/)
 3. Install project
 
-Don't forget to install vagrant
+Don't forget to install vagrant host manager plugin:
 
-```
+```bash
 vagrant plugin install vagrant-hostmanager
+```
+
+and vagrant cachier (to cache stared packages installation):
+
+```bash
+vagrant plugin install vagrant-cachier
 ```
 
 ## Installation

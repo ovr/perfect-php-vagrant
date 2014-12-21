@@ -13,10 +13,10 @@ My Vagrant Development Box
 
 ## Pre-installed projects
 
-* [Phalcon Rest Edition]() on [phalcon-rest.local](phalcon-rest.local)
-* [Phalcon Rest Lynx Edition]() on [phalcon-lynx-rest.local](phalcon-lynx-rest.local)
-* [Phalcon Full Skeleton Edition]() on [phalcon-rest.local](phalcon-rest.local)
-* [Angular Skeleton]() on [angular-skeleton.local](angular-skeleton.local)
+* [Phalcon Rest Edition]() on [http://phalcon-rest.local/](http://phalcon-rest.local/)
+* [Phalcon Rest Lynx Edition]() on [http://phalcon-lynx-rest.local/](http://phalcon-lynx-rest.local/)
+* [Phalcon Full Skeleton Edition]() on [http://phalcon-rest.local/](http://phalcon-rest.local/)
+* [Angular Skeleton]() on [http://angular-skeleton.local/](http://angular-skeleton.local/)
 
 ## Getting Started
 

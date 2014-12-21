@@ -22,6 +22,17 @@ For frontend:
 * Gulp (global env)
 * Grunt-cli (global env)
 
+Default vm parameters:
+
+```yaml
+name: phalcon2-dev
+hostname: vm.local
+box: ubuntu/trusty64
+ram: 512
+ip: 10.10.10.150
+projects-folder: "~/projects"
+```
+
 ## Pre-installed projects
 
 * [Phalcon Full Skeleton Edition](https://github.com/ovr/phalcon-module-skeleton) on [http://phalcon-module.local/](http://phalcon-module.local/)

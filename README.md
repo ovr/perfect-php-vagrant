@@ -4,12 +4,21 @@ My Vagrant Development Box
 [![Author](http://img.shields.io/badge/author-@ovr-blue.svg?style=flat-square)](https://twitter.com/ovrweb)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
+Software:
+
 * PHP 5.6 (+default+json+memcache+fpm+curl)
 * [Nginx](http://nginx.org/) (Web server)
 * [Zephir Language](https://github.com/phalcon/zephir) (Compiled high level language aimed to the creation of C-extensions for PHP)
 * [Phalcon 2](https://github.com/phalcon/cphalcon/tree/2.0.0) (Framework for PHP on Zephir)
 * [Lynx](https://github.com/lynx/lynx) (ORM/DBAL for PHP on Zephir)
 * [Composer](https://getcomposer.org/) (Dependency Manager for PHP)
+
+For frontend:
+
+* NodeJS with NPM
+* Bower (global env)
+* Gulp (global env)
+* Grunt-cli (global env)
 
 ## Pre-installed projects
 

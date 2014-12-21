@@ -11,6 +11,13 @@ My Vagrant Development Box
 * [Lynx](https://github.com/lynx/lynx) (ORM/DBAL for PHP on Zephir)
 * [Composer](https://getcomposer.org/) (Dependency Manager for PHP)
 
+## Pre-installed projects
+
+* [Phalcon Rest Edition]() on [phalcon-rest.local](phalcon-rest.local)
+* [Phalcon Rest Lynx Edition]() on [phalcon-lynx-rest.local](phalcon-lynx-rest.local)
+* [Phalcon Full Skeleton Edition]() on [phalcon-rest.local](phalcon-rest.local)
+* [Angular Skeleton]() on [angular-skeleton.local](angular-skeleton.local)
+
 ## Getting Started
 
 1. Download and install [VirtualBox](https://www.virtualbox.org/)

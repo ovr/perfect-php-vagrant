@@ -22,6 +22,9 @@ Vagrant.configure(2) do |config|
         hosts = Array.new()
 
         hosts.push("phalcon-module.local");
+        hosts.push("angular-skeleton.local");
+        hosts.push("phalcon-rest.local");
+        hosts.push("phalcon-lynx-rest.local");
 
         config.hostmanager.enabled           = true
         config.hostmanager.manage_host       = true

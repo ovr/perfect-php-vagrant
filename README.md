@@ -15,7 +15,7 @@ My Vagrant Development Box
 
 * [Phalcon Rest Edition]() on [http://phalcon-rest.local/](http://phalcon-rest.local/)
 * [Phalcon Rest Lynx Edition]() on [http://phalcon-lynx-rest.local/](http://phalcon-lynx-rest.local/)
-* [Phalcon Full Skeleton Edition]() on [http://phalcon-rest.local/](http://phalcon-rest.local/)
+* [Phalcon Full Skeleton Edition]() on [http://phalcon-module.local/](http://phalcon-module.local/)
 * [Angular Skeleton]() on [http://angular-skeleton.local/](http://angular-skeleton.local/)
 
 ## Getting Started

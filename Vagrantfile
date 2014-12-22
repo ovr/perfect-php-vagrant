@@ -37,8 +37,8 @@ Vagrant.configure(2) do |config|
         config.cache.scope = :box
     end
 
-    config.vm.synced_folder configuration["projects-folder"], "/var/www/projects", create: true, group: "www-data", owner: "www-data"
-    config.vm.synced_folder "./localhost", "/var/www/localhost", create: true, group: "www-data", owner: "www-data"
+    config.vm.synced_folder configuration["projects-folder"], "/var/www/projects", create: true, group: "www-data", owner: "www-data", :mount_options => ["dmode=777","fmode=666"]
+    config.vm.synced_folder "./localhost", "/var/www/localhost", create: true, group: "www-data", owner: "www-data", :mount_options => ["dmode=777","fmode=666"]
 
     config.vm.provision :shell, :path => "vagrant/install.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/php.sh"

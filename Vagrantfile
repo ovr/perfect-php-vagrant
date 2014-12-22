@@ -41,6 +41,7 @@ Vagrant.configure(2) do |config|
     config.vm.synced_folder "./localhost", "/var/www/localhost", create: true, group: "www-data", owner: "www-data"
 
     config.vm.provision :shell, :path => "vagrant/install.sh"
+    config.vm.provision :shell, :path => "vagrant/scripts/pre-installed-projects.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/dbs/mysql.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/php.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/nginx.sh"
@@ -48,6 +49,5 @@ Vagrant.configure(2) do |config|
     config.vm.provision :shell, :path => "vagrant/scripts/phalcon.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/lynx.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/nodejs.sh"
-    config.vm.provision :shell, :path => "vagrant/scripts/pre-installed-projects.sh"
     config.vm.provision :shell, :path => "vagrant/postinstall.sh"
 end

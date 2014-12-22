@@ -41,6 +41,7 @@ Vagrant.configure(2) do |config|
     config.vm.synced_folder "./localhost", "/var/www/localhost", create: true, group: "www-data", owner: "www-data"
 
     config.vm.provision :shell, :path => "vagrant/install.sh"
+    config.vm.provision :shell, :path => "vagrant/scripts/dbs/mysql.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/php.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/nginx.sh"
     config.vm.provision :shell, :path => "vagrant/scripts/zephir.sh"

@@ -7,6 +7,6 @@ sudo ln -s /usr/bin/nodejs /usr/bin/node
 
 echo "Installing Gulp and Bower for global env..."
 
-sudo npm -g install bower > /dev/null
-sudo npm -g install gulp > /dev/null
-sudo npm -g install grunt-cli > /dev/null
+sudo npm -g -q install bower
+sudo npm -g -q install gulp
+sudo npm -g install grunt-cli

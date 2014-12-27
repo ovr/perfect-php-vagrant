@@ -29,7 +29,9 @@ Default vm parameters:
 name: phalcon2-dev
 hostname: vm.local
 box: ubuntu/trusty64
+gui: false
 ram: 512
+cpus: 1
 ip: 10.10.10.150
 projects-folder: "~/projects"
 ```

@@ -10,3 +10,6 @@ sudo apt-get -y upgrade
 sudo apt-get -y dist-upgrade
 
 sudo apt-get install -y git unzip htop memcached
+
+cd ~
+mkdir build

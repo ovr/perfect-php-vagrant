@@ -2,7 +2,7 @@
 
 echo "Installing Phalcon 2..."
 
-cd /tmp
+cd ~/build
 wget -o /dev/null https://github.com/phalcon/cphalcon/archive/2.0.0.zip
 unzip 2.0.0.zip -d cphalcon > /dev/null
 rm 2.0.0.zip

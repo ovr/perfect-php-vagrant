@@ -10,4 +10,4 @@ echo "Installing Gulp and Bower for global env..."
 
 sudo npm -g -q install bower
 sudo npm -g -q install gulp
-sudo npm -g install grunt-cli
+sudo npm -g -q install grunt-cli

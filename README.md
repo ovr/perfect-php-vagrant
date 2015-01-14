@@ -5,7 +5,7 @@ My Vagrant Development Box
 [![Author](http://img.shields.io/badge/author-@ovr-blue.svg?style=flat-square)](https://twitter.com/ovrweb)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
-> Start you development on virtual machine by Vagrant technology
+> Start your development on virtual machine by Vagrant technology
 
 <img src="http://dmtry.me/img/logos/my-perfect-php-machine.jpg">
 

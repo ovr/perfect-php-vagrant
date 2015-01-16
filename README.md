@@ -70,8 +70,8 @@ vagrant plugin install vagrant-cachier
 ## Installation
 
 ```bash
-git clone https://github.com/ovr/my-vagrant.git
-cd my-vagrant
+git clone https://github.com/ovr/perfect-php-vagrant.git
+cd perfect-php-vagrant
 nano config.yaml
 vagrant up
 ```

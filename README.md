@@ -78,6 +78,24 @@ vagrant up
 
 Weight when installation will be finished and open `http://servername/` to see info about server
 
+## Troubleshooting
+
+If after `vagrant up` you are getting something like it:
+
+```sh
+...
+default: Warning: Connection timeout. Retrying...
+default: Warning: Connection timeout. Retrying...
+default: Warning: Connection timeout. Retrying...
+```
+
+You need to diagnose an error by setuping GUI to true in `config.yaml`
+
+```yaml
+  gui: true
+```
+
+
 ## Vagrant
 
 To stop and reinstall machine please run

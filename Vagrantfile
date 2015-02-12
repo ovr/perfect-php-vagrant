@@ -12,7 +12,7 @@ Vagrant.configure(2) do |config|
 
     config.vm.network "private_network", ip: configuration["ip"]
 
-    config.vm.provider "virtualbox" do |vb|
+    config.vm.provider configuration["provider"] do |vb|
         vb.name = configuration["name"]
         vb.memory = configuration["ram"]
         vb.gui = configuration["gui"]

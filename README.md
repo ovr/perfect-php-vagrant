@@ -31,6 +31,7 @@ Default vm parameters:
 name: phalcon2-dev
 hostname: vm.local
 box: ubuntu/trusty64
+provider: virtualbox
 gui: false
 ram: 512
 cpus: 1

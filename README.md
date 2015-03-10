@@ -18,12 +18,12 @@ Software:
 * [Lynx](https://github.com/lynx/lynx) (ORM/DBAL for PHP on Zephir)
 * [Composer](https://getcomposer.org/) (Dependency Manager for PHP)
 
-For frontend:
+For frontend (global env):
 
-* NodeJS with NPM
-* Bower (global env)
-* Gulp (global env)
-* Grunt-cli (global env)
+* [NodeJS](https://nodejs.org/) with NPM
+* [Bower](http://bower.io/)
+* [Gulp](http://gulpjs.com/)
+* [Grunt-cli](https://github.com/gruntjs/grunt-cli)
 
 Default vm parameters:
 

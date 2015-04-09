@@ -12,5 +12,5 @@ if [ ! -d "/var/www/projects/ovr/phalcon-module-skeleton" ]; then
     git clone https://github.com/ovr/phalcon-module-skeleton.git /var/www/projects/ovr/phalcon-module-skeleton
     cd /var/www/projects/ovr/phalcon-module-skeleton
     cp ./application/config/parameters.php.dist ./application/config/parameters.php
-    composer install
+    composer install -o
 fi

@@ -13,5 +13,5 @@ zephir install
 #cd cphalcon
 #zephir install
 
-echo extension=phalcon.so > /etc/php5/cli/conf.d/30-phalcon.ini
-echo extension=phalcon.so > /etc/php5/fpm/conf.d/30-phalcon.ini
+sudo echo extension=phalcon.so > /etc/php5/mods-available/phalcon.ini
+sudo php5enmod phalcon

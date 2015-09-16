@@ -1,9 +1,9 @@
 ---
   name: phalcon2-dev
   hostname: vm.local
-  box: ubuntu/trusty64
+  box: ubuntu/vivid64
   provider: virtualbox
-  gui: false
+  gui: true
   ram: 512
   cpus: 1
   ip: 10.10.10.150

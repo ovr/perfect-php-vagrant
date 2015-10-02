@@ -44,12 +44,6 @@ projects-folder: "~/projects"
 * [Phalcon Full Skeleton Edition](https://github.com/ovr/phalcon-module-skeleton) on [http://phalcon-module.local/](http://phalcon-module.local/)
 * [Angular Skeleton](https://github.com/ovr/angular-skeleton) on [http://angular-skeleton.local/](http://angular-skeleton.local/)
 
-
-Will be soon !!!
-
-* [Phalcon Rest Edition](https://github.com/ovr/phalcon-rest-edition) on [http://phalcon-rest.local/](http://phalcon-rest.local/)
-* [Phalcon Rest Lynx Edition](https://github.com/ovr/phalcon-lynx-rest-edition) on [http://phalcon-lynx-rest.local/](http://phalcon-lynx-rest.local/)
-
 ## Getting Started
 
 1. Download and install [VirtualBox](https://www.virtualbox.org/)
